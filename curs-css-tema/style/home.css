@@ -9,7 +9,7 @@
 	font-family: 'Cantarell', sans-serif;
 	letter-spacing: 2px;	
 }
-
+// no need to use 2 ids. Id`s are suppose to be unique
 #home #form form ul {
 		margin:0;
 		padding:0;
