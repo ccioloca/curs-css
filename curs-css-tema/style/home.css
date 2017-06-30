@@ -1,0 +1,118 @@
+
+#home .headline h1 {
+	color: #FF7300;
+	
+}
+
+#home .headline h3 {
+	text-shadow: 0 0 10px #ffffff;
+	font-family: 'Cantarell', sans-serif;
+	letter-spacing: 2px;	
+}
+
+#home #form form ul {
+		margin:0;
+		padding:0;
+		list-style-type: none;
+	}
+
+	#home #form form ul  li {
+			float: left;
+			display: inline;
+		}
+		
+	#home #form form ul  li.check-in, .check-out {
+			width: 30%;
+		}
+	#home #form form ul  li.adults, .kids {
+			width: 10%;
+		}
+		
+	#home #form form ul  li.searchBut {
+			width: 20%;
+		}
+		
+		#home #form form ul  li.searchBut input {
+		padding: 3px 0;
+		border: 0;
+		background: #FF7300;
+		color: #FFFFFF;	
+		width: 100%;
+		}
+
+#home .heading {
+		padding: 30px 0;
+		}
+	#home .heading h3 {
+			color: #FF7300;
+			font-family: 'Concert One', cursive;
+			font-size: 30px;
+		}
+	#home .heading p {
+			font-family: 'Cantarell', sans-serif;
+			font-size: 20px;
+			margin: 30px auto;
+			width: 80%;
+		}
+#home .containerApartment {
+	padding: 0;
+	margin: 0 0 30px 0;
+	}	
+	
+#home .apartmentTop, .containerLocation {
+	background-color: #B6C087;
+	height: 250px;
+	}
+#home .apartmentTop img, .containerLocation img {
+	height: 250px;
+	width: 100%;
+	}	
+#home .apartmentTop .boxText, .containerLocation .boxText, .aboutCamilaTiago .boxText  {
+	padding: 6% 5%;
+	display: inline-block;
+	}
+	
+#home .apartmentBottom {
+	background-color: #FFFFE0;
+	height: 300px;
+	display: inline-block;
+	}
+
+#home .apartmentBottom img {
+	height: 300px;
+	width: 100%;
+	}	
+		
+
+#home .apartmentBottom .boxText {
+	padding: 10% 5%;
+	display: inline-block;
+	}
+	
+#home .apartmentBottom p.bookNow {
+	padding-top: 30px;
+	}
+	
+#home .containerLocation {
+	padding: 0 0;
+	margin: 50px 0 0 0;
+	}
+
+#home .viewMap {
+	padding: 50px 0;
+	background-color: #FFFFE0;	
+	}
+	
+#home .aboutCamilaTiago {
+	height: 350px;
+	background-color: #B6C087;
+	}
+	
+#home .aboutCamilaTiago img {
+	height: 350px;
+	width: 100%
+	}
+
+#home .aboutCamilaTiago .separatorLeft	{
+	width: 10%
+	}

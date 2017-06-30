@@ -1,0 +1,127 @@
+#our-apartment #container {
+	padding: 10px 20px 20px 20px;
+}
+
+#our-apartment .headline h1 {
+	margin-top: 60px;
+	color: #72354A;
+	text-shadow: 0 0 10px #ffffff;
+	font-size: 60px;
+	font-weight: bold;
+	font-family: 'Baloo', cursive;
+	letter-spacing: 2px;
+		
+}
+#our-apartment .carousel-inner > .item img {
+	width: 100%;
+}
+
+
+#our-apartment .carousel-fade .carousel-inner .item {
+  opacity: 0.7;
+  transition-property: opacity;
+  transition-duration: 3s;
+  transition-timing-function:linear;
+}
+
+#our-apartment .carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+#our-apartment .carousel-fade .carousel-inner .active.left,
+#our-apartment .carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 1;
+  z-index: 1;
+}
+
+#our-apartment .carousel-fade .carousel-inner .next.left,
+#our-apartment .carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+#our-apartment .carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+
+#our-apartment .thumbsContainer {
+	margin: 10px 0;
+}
+
+#our-apartment .thumbsContainer ul.thumbs {
+		margin:0;
+		padding:0;
+		list-style-type: none;
+	
+}
+
+#our-apartment .thumbsContainer ul.thumbs li {
+	float: left;
+	display: inline;
+	padding-right: 10px;
+	width: 100px;
+}
+
+#our-apartment .thumbsContainer ul.thumbs li img {
+	width: 100%;
+}
+
+#our-apartment .moreInfo {
+	line-height: 20px;
+	margin: 10px;
+	padding: 30px 0;
+	border-bottom: 1px solid #A0A0A0;
+}
+
+#our-apartment .moreInfo h4 {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+#our-apartment .moreInfo p {
+	line-height: 20px;
+}
+
+#our-apartment #formAdvertise {
+	border: 1px solid #A0A0A0;
+	padding: 20px;
+	
+}
+
+#our-apartment #formAdvertise .advertise {
+	border-left: 1px solid #A0A0A0;
+	padding: 10px;
+}
+
+#our-apartment #formAdvertise .advertise span {
+	font-size: 30px;
+}
+
+#our-apartment #formAdvertise form {
+	border: 1px solid #A0A0A0;
+	height: 280px;
+	margin-top: 20px;
+	padding: 20px;
+}
+
+#our-apartment #formAdvertise form ul {
+		margin:0;
+		padding:0;
+		list-style-type: none;
+	}
+
+	#our-apartment #formAdvertise form ul li {
+		padding: 0;
+		/*line-height: 30px;*/
+		width: 100%;
+		}
+		
+		#our-apartment #formAdvertise form ul li.searchBut input {
+		margin-top: 20px;
+		line-height: 30px;
+		border: 0;
+		background: #FF7300;
+		color: #FFFFFF;	
+		width: 100%;
+		}

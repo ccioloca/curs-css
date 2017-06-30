@@ -1,0 +1,41 @@
+/* H1 tiles*/
+
+@keyframes title {
+    from {color: #FF7300;}
+    to {color: #000066;}
+}
+
+#home .headline h1 {
+	animation-name: title;
+    animation-duration: 4s;
+	
+}
+
+@keyframes apartment {
+    from {color: #72354A;}
+    to {color: #B56758;}
+}
+
+#our-apartment .headline h1 {
+	animation-name: apartment;
+    animation-duration: 4s;
+	
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
